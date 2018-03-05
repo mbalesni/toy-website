@@ -1,3 +1,20 @@
+/*    COLORS
+*
+*
+*   orange: #e64a19;
+*
+*
+*
+*
+*
+*
+***************/
+
+
+
+a, a:link, a:hover, a:active, a:visited {
+  color: #e64a19;
+}
 h1 {
   font-size: 2em;
 }
@@ -51,7 +68,7 @@ header > #logo {
 nav {
   background-color: #228ae6;
 }
-nav > a {
+nav > a.nav-item {
   border-right: 1px solid #fafafa;
   color: #fafafa;
   padding: 0 2rem;

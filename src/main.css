@@ -154,14 +154,17 @@ ul.benefits > li > svg {
 }
 .more-details-btn {
   background-color: #4dadf7;
-  color: #fafafa;
+  color: #fafafa !important;
   border: 1px solid rgba(0,0,0,.2);
   font-size: 1.5em;
   font-weight: bold;
   padding: 1rem 1.15rem;
   border-bottom-width: 5px;
   transition: 0.1s ease-in-out;
-  width: 100%;
+  width: 90%;
+  text-align: center;
+  display: block;
+  text-decoration: none !important;
 }
 .more-details-btn:hover,
 .more-details-btn:active {
@@ -379,10 +382,13 @@ ul#differences-list > li > .differences-list-item-title {
   text-align: justify;
 }
 
-.delivery > h2 {
+#delivery {
+  padding-bottom: 7rem !important;
+}
+#delivery > h2 {
   margin-bottom: 5rem;
 }
-.delivery > ul {
+#delivery > ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1rem;
@@ -411,10 +417,15 @@ footer {
   background-color: #555;
   color: #f0f0f0;
   display: grid;
-  grid-template-columns: 220px 480px repeat(2, 1fr);
+  grid-template-columns: 350px 300px repeat(2, 1fr);
+  grid-template-rows: 200px;
   grid-gap: 1rem;
+  align-items: center;
   text-align: center;
-  padding: 5rem 10rem !important;
+  padding: 3rem 10rem !important;
+}
+footer > #logo {
+  height: 100%;
 }
 
 footer > div {
